@@ -1,0 +1,813 @@
+Watching for file changes with StatReloader
+[17/Jan/2021 08:26:16] "GET / HTTP/1.1" 200 17
+[17/Jan/2021 08:26:17] "GET / HTTP/1.1" 200 17
+[17/Jan/2021 08:26:26] "GET / HTTP/1.1" 200 17
+[17/Jan/2021 08:26:26] "GET / HTTP/1.1" 200 17
+[17/Jan/2021 08:26:53] "GET /admin HTTP/1.1" 301 0
+[17/Jan/2021 08:26:53] "GET /admin/ HTTP/1.1" 302 0
+[17/Jan/2021 08:26:54] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2194
+[17/Jan/2021 08:26:54] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2138
+[17/Jan/2021 08:26:54] "GET /static/admin/css/base.css HTTP/1.1" 200 16307
+[17/Jan/2021 08:26:54] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+[17/Jan/2021 08:26:54] "GET /static/admin/css/login.css HTTP/1.1" 200 1185
+[17/Jan/2021 08:26:54] "GET /static/admin/css/responsive.css HTTP/1.1" 200 18339
+[17/Jan/2021 08:26:54] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[17/Jan/2021 08:26:54] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[17/Jan/2021 08:26:54] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[17/Jan/2021 08:27:04] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[17/Jan/2021 08:27:04] "GET /admin/ HTTP/1.1" 200 3971
+[17/Jan/2021 08:27:04] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+[17/Jan/2021 08:27:04] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[17/Jan/2021 08:27:04] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[17/Jan/2021 08:27:04] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[17/Jan/2021 08:27:08] "GET /admin/members/members/add/ HTTP/1.1" 200 6122
+[17/Jan/2021 08:27:08] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+[17/Jan/2021 08:27:08] "GET /static/admin/js/core.js HTTP/1.1" 200 5418
+[17/Jan/2021 08:27:08] "GET /static/admin/css/forms.css HTTP/1.1" 200 8423
+[17/Jan/2021 08:27:08] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6078
+[17/Jan/2021 08:27:08] "GET /admin/jsi18n/ HTTP/1.1" 200 3187
+[17/Jan/2021 08:27:08] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 287630
+[17/Jan/2021 08:27:08] "GET /static/admin/js/actions.js HTTP/1.1" 200 6783
+[17/Jan/2021 08:27:08] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+[17/Jan/2021 08:27:08] "GET /static/admin/js/urlify.js HTTP/1.1" 200 8632
+[17/Jan/2021 08:27:08] "GET /static/admin/css/widgets.css HTTP/1.1" 200 10592
+[17/Jan/2021 08:27:08] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+[17/Jan/2021 08:27:08] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 492
+[17/Jan/2021 08:27:08] "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+[17/Jan/2021 08:27:11] "GET /admin/ HTTP/1.1" 200 3971
+[17/Jan/2021 08:27:13] "GET /admin/members/members/ HTTP/1.1" 200 4947
+[17/Jan/2021 08:27:13] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6281
+[17/Jan/2021 08:27:13] "GET /admin/jsi18n/ HTTP/1.1" 200 3187
+[17/Jan/2021 08:27:13] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[17/Jan/2021 08:27:15] "GET /admin/ HTTP/1.1" 200 3971
+/root/portfolio/portfolio/settings.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 17, 2021 - 08:25:56
+Django version 3.1.5, using settings 'portfolio.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[17/Jan/2021 08:33:08] "GET / HTTP/1.1" 200 7956
+[17/Jan/2021 08:33:08] "GET /static/6284.jpg HTTP/1.1" 200 202725
+[17/Jan/2021 08:33:08] "GET /static/2146317.jpg HTTP/1.1" 200 292394
+[17/Jan/2021 08:33:08] "GET /static/17691.jpg HTTP/1.1" 200 516034
+[17/Jan/2021 08:33:22] "GET / HTTP/1.1" 200 7956
+Not Found: /callender.html
+[17/Jan/2021 08:33:24] "GET /callender.html HTTP/1.1" 404 2150
+[17/Jan/2021 08:33:34] "GET /admin/ HTTP/1.1" 200 3971
+[17/Jan/2021 08:33:34] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+[17/Jan/2021 08:33:34] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[17/Jan/2021 08:33:34] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[17/Jan/2021 08:33:34] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[17/Jan/2021 08:33:34] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[17/Jan/2021 08:33:34] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[17/Jan/2021 08:33:34] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[17/Jan/2021 08:33:34] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[17/Jan/2021 08:33:34] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[17/Jan/2021 08:33:34] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[17/Jan/2021 08:33:34] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+Not Found: /callender.html
+[17/Jan/2021 08:33:53] "GET /callender.html HTTP/1.1" 404 2150
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/portfolio/members/views.py", line 8, in index
+    return render(request, "201710321.html")
+  File "/usr/local/lib/python3.6/dist-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.6/dist-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python3.6/dist-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: 201710321.html
+[17/Jan/2021 08:34:30] "GET / HTTP/1.1" 500 72054
+[17/Jan/2021 08:34:33] "GET /admin/ HTTP/1.1" 200 3971
+[17/Jan/2021 08:35:48] "GET / HTTP/1.1" 200 7966
+[17/Jan/2021 08:35:48] "GET /static/17691.jpg HTTP/1.1" 304 0
+[17/Jan/2021 08:35:48] "GET /static/6284.jpg HTTP/1.1" 304 0
+[17/Jan/2021 08:35:48] "GET /static/2146317.jpg HTTP/1.1" 304 0
+Not Found: /templates/callender.html"
+[17/Jan/2021 08:35:50] "GET /templates/callender.html%22 HTTP/1.1" 404 2195
+Not Found: /templates/callender.html"
+[17/Jan/2021 08:36:56] "GET /templates/callender.html%22 HTTP/1.1" 404 2195
+[17/Jan/2021 08:37:00] "GET / HTTP/1.1" 200 7963
+[17/Jan/2021 08:37:00] "GET /static/2146317.jpg HTTP/1.1" 304 0
+[17/Jan/2021 08:37:00] "GET /static/17691.jpg HTTP/1.1" 304 0
+[17/Jan/2021 08:37:00] "GET /static/6284.jpg HTTP/1.1" 304 0
+[17/Jan/2021 08:37:00] "GET / HTTP/1.1" 200 7963
+[17/Jan/2021 08:37:01] "GET /static/callender.html%22 HTTP/1.1" 404 1688
+[17/Jan/2021 08:38:37] "GET / HTTP/1.1" 200 7992
+[17/Jan/2021 08:38:38] "GET /static/2146317.jpg HTTP/1.1" 304 0
+[17/Jan/2021 08:38:38] "GET /static/6284.jpg HTTP/1.1" 304 0
+[17/Jan/2021 08:38:38] "GET /static/17691.jpg HTTP/1.1" 304 0
+[17/Jan/2021 08:38:41] "GET /static/callender.html HTTP/1.1" 200 2256
+/root/portfolio/portfolio/urls.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 17, 2021 - 08:29:40
+Django version 3.1.5, using settings 'portfolio.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/root/portfolio/members/urls.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 17, 2021 - 08:41:07
+Django version 3.1.5, using settings 'portfolio.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+Not Found: /
+[17/Jan/2021 08:41:53] "GET / HTTP/1.1" 404 2048
+Not Found: /201710321kimwonseok
+[17/Jan/2021 08:42:00] "GET /201710321kimwonseok HTTP/1.1" 404 2203
+/root/portfolio/members/urls.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 17, 2021 - 08:41:42
+Django version 3.1.5, using settings 'portfolio.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+System check identified some issues:
+
+WARNINGS:
+?: (urls.W002) Your URL pattern '/201710321kimwonseok' [name='index'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+
+System check identified 1 issue (0 silenced).
+Not Found: /201710321kimwonseok
+[17/Jan/2021 08:42:27] "GET /201710321kimwonseok HTTP/1.1" 404 2204
+Not Found: /201710321kimwonseok
+[17/Jan/2021 08:42:27] "GET /201710321kimwonseok HTTP/1.1" 404 2204
+/root/portfolio/members/urls.py changed, reloading.
+Performing system checks...
+
+January 17, 2021 - 08:42:24
+Django version 3.1.5, using settings 'portfolio.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/root/portfolio/portfolio/urls.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 17, 2021 - 08:43:18
+Django version 3.1.5, using settings 'portfolio.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+Not Found: /201710321kimwonseok
+[17/Jan/2021 08:43:43] "GET /201710321kimwonseok HTTP/1.1" 404 2124
+Not Found: /201710321kimwonseok
+[17/Jan/2021 08:43:43] "GET /201710321kimwonseok HTTP/1.1" 404 2124
+Not Found: /201710321kimwonseok
+[17/Jan/2021 08:43:44] "GET /201710321kimwonseok HTTP/1.1" 404 2124
+/root/portfolio/portfolio/urls.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 17, 2021 - 08:43:42
+Django version 3.1.5, using settings 'portfolio.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+System check identified some issues:
+
+WARNINGS:
+?: (urls.W002) Your URL pattern '/201710321kimwonseok' has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+
+System check identified 1 issue (0 silenced).
+Not Found: /201710321kimwonseok
+[17/Jan/2021 08:43:57] "GET /201710321kimwonseok HTTP/1.1" 404 2124
+Not Found: /201710321kimwonseok
+[17/Jan/2021 08:43:58] "GET /201710321kimwonseok HTTP/1.1" 404 2124
+Not Found: /201710321kimwonseok
+[17/Jan/2021 08:43:58] "GET /201710321kimwonseok HTTP/1.1" 404 2124
+Not Found: /201710321kimwonseok
+[17/Jan/2021 08:43:59] "GET /201710321kimwonseok HTTP/1.1" 404 2124
+/root/portfolio/portfolio/urls.py changed, reloading.
+Performing system checks...
+
+January 17, 2021 - 08:43:56
+Django version 3.1.5, using settings 'portfolio.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+Not Found: /201710321kimwonseok
+[17/Jan/2021 08:45:06] "GET /201710321kimwonseok HTTP/1.1" 404 2124
+Not Found: /201710321kimwonseok
+[17/Jan/2021 08:45:06] "GET /201710321kimwonseok HTTP/1.1" 404 2124
+/root/portfolio/members/urls.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 17, 2021 - 08:44:36
+Django version 3.1.5, using settings 'portfolio.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+Not Found: /201710321kimwonseok
+[17/Jan/2021 08:45:32] "GET /201710321kimwonseok HTTP/1.1" 404 2124
+Not Found: /201710321kimwonseok
+[17/Jan/2021 08:45:33] "GET /201710321kimwonseok HTTP/1.1" 404 2124
+Not Found: /201710321kimwonseok
+[17/Jan/2021 08:45:33] "GET /201710321kimwonseok HTTP/1.1" 404 2124
+/root/portfolio/members/urls.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 17, 2021 - 08:45:30
+Django version 3.1.5, using settings 'portfolio.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/root/portfolio/portfolio/urls.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 17, 2021 - 08:45:54
+Django version 3.1.5, using settings 'portfolio.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[17/Jan/2021 08:46:23] "GET / HTTP/1.1" 200 7992
+[17/Jan/2021 08:46:24] "GET /static/6284.jpg HTTP/1.1" 304 0
+[17/Jan/2021 08:46:24] "GET /static/2146317.jpg HTTP/1.1" 304 0
+[17/Jan/2021 08:46:24] "GET /static/17691.jpg HTTP/1.1" 304 0
+[17/Jan/2021 08:49:13] "GET / HTTP/1.1" 200 7992
+[17/Jan/2021 08:49:13] "GET /static/2146317.jpg HTTP/1.1" 304 0
+[17/Jan/2021 08:49:13] "GET /static/6284.jpg HTTP/1.1" 304 0
+[17/Jan/2021 08:49:13] "GET /static/17691.jpg HTTP/1.1" 304 0
+[17/Jan/2021 08:49:14] "GET / HTTP/1.1" 200 7992
+[17/Jan/2021 08:50:45] "GET / HTTP/1.1" 200 7992
+[17/Jan/2021 08:50:45] "GET / HTTP/1.1" 200 7992
+[17/Jan/2021 08:50:46] "GET / HTTP/1.1" 200 7992
+[17/Jan/2021 08:51:09] "GET / HTTP/1.1" 200 7992
+[17/Jan/2021 08:51:09] "GET /static/6284.jpg HTTP/1.1" 304 0
+[17/Jan/2021 08:51:09] "GET /static/2146317.jpg HTTP/1.1" 304 0
+[17/Jan/2021 08:51:09] "GET /static/17691.jpg HTTP/1.1" 304 0
+[17/Jan/2021 17:03:30] "GET / HTTP/1.1" 200 8414
+[17/Jan/2021 17:03:30] "GET /static/1931~1959.jpg HTTP/1.1" 200 135670
+[17/Jan/2021 17:03:30] "GET /static/1990~1999.jpg HTTP/1.1" 200 99728
+[17/Jan/2021 17:03:30] "GET /static/1980~1989.jpg HTTP/1.1" 200 122427
+[17/Jan/2021 17:03:30] "GET /static/1961~1967.jpg HTTP/1.1" 200 140521
+[17/Jan/2021 17:03:30] "GET /static/main.jpg HTTP/1.1" 200 337605
+[17/Jan/2021 17:03:30] "GET /static/1972~1979.jpg HTTP/1.1" 200 195818
+[17/Jan/2021 17:03:30] "GET /static/2000~2009.jpg HTTP/1.1" 200 135919
+[17/Jan/2021 17:03:30] "GET /static/2010~.jpg HTTP/1.1" 200 293579
+Not Found: /icon.png
+[17/Jan/2021 17:03:31] "GET /icon.png HTTP/1.1" 404 2132
+Not Found: /201710321.html
+[17/Jan/2021 17:03:37] "GET /201710321.html HTTP/1.1" 404 2150
+Not Found: /201710321.html
+[17/Jan/2021 17:03:43] "GET /201710321.html HTTP/1.1" 404 2150
+Not Found: /201710321-3-1.html
+[17/Jan/2021 17:03:58] "GET /201710321-3-1.html HTTP/1.1" 404 2162
+[17/Jan/2021 17:05:08] "GET / HTTP/1.1" 200 8424
+[17/Jan/2021 17:05:08] "GET /static/main.jpg HTTP/1.1" 304 0
+[17/Jan/2021 17:05:08] "GET /static/1972~1979.jpg HTTP/1.1" 304 0
+[17/Jan/2021 17:05:08] "GET /static/1961~1967.jpg HTTP/1.1" 304 0
+[17/Jan/2021 17:05:08] "GET /static/1990~1999.jpg HTTP/1.1" 304 0
+[17/Jan/2021 17:05:08] "GET /static/1931~1959.jpg HTTP/1.1" 304 0
+[17/Jan/2021 17:05:08] "GET /static/1980~1989.jpg HTTP/1.1" 304 0
+[17/Jan/2021 17:05:08] "GET /static/2010~.jpg HTTP/1.1" 304 0
+[17/Jan/2021 17:05:08] "GET /static/2000~2009.jpg HTTP/1.1" 304 0
+Not Found: /templates/201710321.html
+[17/Jan/2021 17:05:09] "GET /templates/201710321.html HTTP/1.1" 404 2180
+Not Found: /templates/201710321.html
+[17/Jan/2021 17:08:58] "GET /templates/201710321.html HTTP/1.1" 404 2180
+[17/Jan/2021 17:09:02] "GET / HTTP/1.1" 200 8424
+[17/Jan/2021 17:09:02] "GET /static/1931~1959.jpg HTTP/1.1" 304 0
+[17/Jan/2021 17:09:02] "GET /static/main.jpg HTTP/1.1" 304 0
+[17/Jan/2021 17:09:02] "GET /static/1972~1979.jpg HTTP/1.1" 304 0
+[17/Jan/2021 17:09:02] "GET /static/1980~1989.jpg HTTP/1.1" 304 0
+[17/Jan/2021 17:09:02] "GET /static/1961~1967.jpg HTTP/1.1" 304 0
+[17/Jan/2021 17:09:02] "GET /static/1990~1999.jpg HTTP/1.1" 304 0
+[17/Jan/2021 17:09:02] "GET /static/2010~.jpg HTTP/1.1" 304 0
+[17/Jan/2021 17:09:02] "GET /static/2000~2009.jpg HTTP/1.1" 304 0
+Not Found: /201710321-3-1.html
+[17/Jan/2021 17:09:07] "GET /201710321-3-1.html HTTP/1.1" 404 2162
+[17/Jan/2021 17:12:05] "GET / HTTP/1.1" 200 8456
+[17/Jan/2021 17:12:05] "GET /static/main.jpg HTTP/1.1" 304 0
+[17/Jan/2021 17:12:05] "GET /static/1961~1967.jpg HTTP/1.1" 304 0
+[17/Jan/2021 17:12:05] "GET /static/1972~1979.jpg HTTP/1.1" 304 0
+[17/Jan/2021 17:12:05] "GET /static/1931~1959.jpg HTTP/1.1" 304 0
+[17/Jan/2021 17:12:05] "GET /static/1990~1999.jpg HTTP/1.1" 304 0
+[17/Jan/2021 17:12:05] "GET /static/1980~1989.jpg HTTP/1.1" 304 0
+[17/Jan/2021 17:12:05] "GET /static/2000~2009.jpg HTTP/1.1" 304 0
+[17/Jan/2021 17:12:05] "GET /static/2010~.jpg HTTP/1.1" 304 0
+[17/Jan/2021 17:12:07] "GET /static/201710321-3-1.html HTTP/1.1" 200 5468
+[17/Jan/2021 17:12:08] "GET /static/icon.png HTTP/1.1" 404 1655
+[17/Jan/2021 17:12:09] "GET /static/static/201710321-2.html HTTP/1.1" 404 1700
+[17/Jan/2021 17:12:11] "GET /static/static/201710321-2.html HTTP/1.1" 404 1700
+[17/Jan/2021 17:12:16] "GET /static/static/201710321-3-1.html HTTP/1.1" 404 1706
+[17/Jan/2021 17:12:21] "GET /static/static/201710321-3-1.html HTTP/1.1" 404 1706
+[17/Jan/2021 17:12:25] "GET /static/201710321.html HTTP/1.1" 404 1673
+[17/Jan/2021 17:12:33] "GET / HTTP/1.1" 200 8456
+[17/Jan/2021 17:12:34] "GET /static/201710321-3-1.html HTTP/1.1" 304 0
+[17/Jan/2021 17:12:51] "GET /static/static/201710321-2.html HTTP/1.1" 404 1700
+[17/Jan/2021 17:12:54] "GET /static/201710321-2.html HTTP/1.1" 200 13438
+[17/Jan/2021 17:12:58] "GET /static/static/201710321-3-1.html HTTP/1.1" 404 1706
+[17/Jan/2021 17:13:33] "GET /static/201710321.html HTTP/1.1" 404 1673
+[17/Jan/2021 17:13:40] "GET /static/static/201710321-2.html HTTP/1.1" 404 1700
+[17/Jan/2021 17:14:08] "GET / HTTP/1.1" 200 8456
+[17/Jan/2021 17:14:08] "GET /static/main.jpg HTTP/1.1" 304 0
+[17/Jan/2021 17:14:08] "GET /static/1931~1959.jpg HTTP/1.1" 304 0
+[17/Jan/2021 17:14:08] "GET /static/1961~1967.jpg HTTP/1.1" 304 0
+[17/Jan/2021 17:14:08] "GET /static/1972~1979.jpg HTTP/1.1" 304 0
+[17/Jan/2021 17:14:08] "GET /static/1990~1999.jpg HTTP/1.1" 304 0
+[17/Jan/2021 17:14:08] "GET /static/1980~1989.jpg HTTP/1.1" 304 0
+[17/Jan/2021 17:14:08] "GET /static/2010~.jpg HTTP/1.1" 304 0
+[17/Jan/2021 17:14:08] "GET /static/2000~2009.jpg HTTP/1.1" 304 0
+[17/Jan/2021 17:14:17] "GET /static/201710321-3-1.html HTTP/1.1" 304 0
+[17/Jan/2021 17:14:22] "GET /static/201710321-2.html HTTP/1.1" 304 0
+[17/Jan/2021 17:14:37] "GET /static/static/201710321-3-1.html HTTP/1.1" 404 1706
+[17/Jan/2021 17:14:47] "GET /static/201710321.html HTTP/1.1" 404 1673
+[17/Jan/2021 17:14:50] "GET / HTTP/1.1" 200 8456
+Not Found: /201710321.html
+[17/Jan/2021 17:14:51] "GET /201710321.html HTTP/1.1" 404 2150
+[17/Jan/2021 17:31:11] "GET / HTTP/1.1" 200 8442
+[17/Jan/2021 17:31:11] "GET /static/main.jpg HTTP/1.1" 304 0
+[17/Jan/2021 17:31:11] "GET /static/1931~1959.jpg HTTP/1.1" 304 0
+[17/Jan/2021 17:31:11] "GET /static/1961~1967.jpg HTTP/1.1" 304 0
+[17/Jan/2021 17:31:11] "GET /static/1972~1979.jpg HTTP/1.1" 304 0
+[17/Jan/2021 17:31:11] "GET /static/1990~1999.jpg HTTP/1.1" 304 0
+[17/Jan/2021 17:31:11] "GET /static/1980~1989.jpg HTTP/1.1" 304 0
+[17/Jan/2021 17:31:11] "GET /static/2000~2009.jpg HTTP/1.1" 304 0
+[17/Jan/2021 17:31:11] "GET /static/2010~.jpg HTTP/1.1" 304 0
+[17/Jan/2021 17:31:13] "GET /static/201710321-3-1.html HTTP/1.1" 404 1685
+[17/Jan/2021 17:31:16] "GET / HTTP/1.1" 200 8442
+[17/Jan/2021 17:31:17] "GET / HTTP/1.1" 200 8442
+[17/Jan/2021 17:31:17] "GET / HTTP/1.1" 200 8442
+[17/Jan/2021 17:31:18] "GET / HTTP/1.1" 200 8442
+[17/Jan/2021 17:31:18] "GET / HTTP/1.1" 200 8442
+[17/Jan/2021 17:31:19] "GET / HTTP/1.1" 200 8442
+[17/Jan/2021 17:31:20] "GET / HTTP/1.1" 200 8442
+[17/Jan/2021 17:31:20] "GET / HTTP/1.1" 200 8442
+[17/Jan/2021 17:31:21] "GET / HTTP/1.1" 200 8442
+[17/Jan/2021 17:31:21] "GET / HTTP/1.1" 200 8442
+[17/Jan/2021 17:31:22] "GET /static/201710321-2.html HTTP/1.1" 404 1679
+/root/portfolio/portfolio/urls.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 17, 2021 - 08:46:18
+Django version 3.1.5, using settings 'portfolio.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/root/portfolio/members/urls.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 17, 2021 - 17:34:09
+Django version 3.1.5, using settings 'portfolio.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/django/utils/autoreload.py", line 53, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/management/commands/runserver.py", line 118, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/management/base.py", line 396, in check
+    databases=databases,
+  File "/usr/local/lib/python3.6/dist-packages/django/core/checks/registry.py", line 70, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/checks/urls.py", line 13, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/checks/urls.py", line 23, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python3.6/dist-packages/django/urls/resolvers.py", line 408, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python3.6/dist-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.6/dist-packages/django/urls/resolvers.py", line 589, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python3.6/dist-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.6/dist-packages/django/urls/resolvers.py", line 582, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/root/portfolio/portfolio/urls.py", line 21, in <module>
+    path('', include('members.urls')),
+  File "/usr/local/lib/python3.6/dist-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/root/portfolio/members/urls.py", line 6, in <module>
+    path('year',views.year, name="year"),
+AttributeError: module 'members.views' has no attribute 'year'
+
+/root/portfolio/members/views.py changed, reloading.
+Performing system checks...
+
+Watching for file changes with StatReloader
+[17/Jan/2021 17:38:50] "GET /video1 HTTP/1.1" 200 5227
+[17/Jan/2021 17:38:53] "GET /video1 HTTP/1.1" 200 5227
+Not Found: /201710321-3-1.html
+[17/Jan/2021 17:38:54] "GET /201710321-3-1.html HTTP/1.1" 404 2978
+[17/Jan/2021 17:39:16] "GET /video2 HTTP/1.1" 200 5227
+[17/Jan/2021 17:39:20] "GET /year HTTP/1.1" 200 12865
+[17/Jan/2021 17:39:26] "GET / HTTP/1.1" 200 8442
+[17/Jan/2021 17:39:26] "GET /static/1931~1959.jpg HTTP/1.1" 304 0
+[17/Jan/2021 17:39:26] "GET /static/main.jpg HTTP/1.1" 304 0
+[17/Jan/2021 17:39:26] "GET /static/1972~1979.jpg HTTP/1.1" 304 0
+[17/Jan/2021 17:39:26] "GET /static/1961~1967.jpg HTTP/1.1" 304 0
+[17/Jan/2021 17:39:26] "GET /static/1980~1989.jpg HTTP/1.1" 304 0
+[17/Jan/2021 17:39:26] "GET /static/1990~1999.jpg HTTP/1.1" 304 0
+[17/Jan/2021 17:39:26] "GET /static/2000~2009.jpg HTTP/1.1" 304 0
+[17/Jan/2021 17:39:26] "GET /static/2010~.jpg HTTP/1.1" 304 0
+[17/Jan/2021 17:39:31] "GET / HTTP/1.1" 200 8442
+[17/Jan/2021 17:39:31] "GET / HTTP/1.1" 200 8442
+[17/Jan/2021 17:39:32] "GET / HTTP/1.1" 200 8442
+[17/Jan/2021 17:39:32] "GET / HTTP/1.1" 200 8442
+[17/Jan/2021 17:39:33] "GET / HTTP/1.1" 200 8442
+[17/Jan/2021 17:42:51] "GET / HTTP/1.1" 200 8348
+[17/Jan/2021 17:42:54] "GET / HTTP/1.1" 200 8348
+[17/Jan/2021 17:42:54] "GET / HTTP/1.1" 200 8348
+[17/Jan/2021 17:42:55] "GET / HTTP/1.1" 200 8348
+[17/Jan/2021 17:42:55] "GET /video1 HTTP/1.1" 200 5111
+[17/Jan/2021 17:42:57] "GET /video1 HTTP/1.1" 200 5111
+[17/Jan/2021 17:42:58] "GET /video1 HTTP/1.1" 200 5111
+[17/Jan/2021 17:42:59] "GET /video1 HTTP/1.1" 200 5111
+[17/Jan/2021 17:43:02] "GET /video1 HTTP/1.1" 200 5111
+[17/Jan/2021 17:43:03] "GET /video1 HTTP/1.1" 200 5111
+[17/Jan/2021 17:43:04] "GET /year HTTP/1.1" 200 12813
+[17/Jan/2021 17:43:05] "GET /video1 HTTP/1.1" 200 5111
+[17/Jan/2021 17:43:06] "GET /year HTTP/1.1" 200 12813
+[17/Jan/2021 17:43:06] "GET /video1 HTTP/1.1" 200 5111
+[17/Jan/2021 17:43:07] "GET /video1 HTTP/1.1" 200 5111
+/root/portfolio/portfolio/urls.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 17, 2021 - 17:37:54
+Django version 3.1.5, using settings 'portfolio.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/root/portfolio/members/urls.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 17, 2021 - 17:43:37
+Django version 3.1.5, using settings 'portfolio.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+Not Found: /main
+[17/Jan/2021 17:45:48] "GET /main HTTP/1.1" 404 2956
+Not Found: /year
+[17/Jan/2021 17:45:57] "GET /year HTTP/1.1" 404 2956
+Not Found: /video1
+[17/Jan/2021 17:46:17] "GET /video1 HTTP/1.1" 404 2968
+/root/portfolio/portfolio/urls.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 17, 2021 - 17:45:27
+Django version 3.1.5, using settings 'portfolio.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/root/portfolio/members/urls.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 17, 2021 - 17:46:49
+Django version 3.1.5, using settings 'portfolio.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[17/Jan/2021 17:47:38] "GET / HTTP/1.1" 200 8348
+[17/Jan/2021 17:47:38] "GET /static/1931~1959.jpg HTTP/1.1" 304 0
+[17/Jan/2021 17:47:38] "GET /static/main.jpg HTTP/1.1" 304 0
+[17/Jan/2021 17:47:38] "GET /static/1972~1979.jpg HTTP/1.1" 304 0
+[17/Jan/2021 17:47:38] "GET /static/1961~1967.jpg HTTP/1.1" 304 0
+[17/Jan/2021 17:47:38] "GET /static/1980~1989.jpg HTTP/1.1" 304 0
+[17/Jan/2021 17:47:38] "GET /static/1990~1999.jpg HTTP/1.1" 304 0
+[17/Jan/2021 17:47:38] "GET /static/2010~.jpg HTTP/1.1" 304 0
+[17/Jan/2021 17:47:38] "GET /static/2000~2009.jpg HTTP/1.1" 304 0
+[17/Jan/2021 17:47:42] "GET / HTTP/1.1" 200 8348
+[17/Jan/2021 17:47:46] "GET /video1 HTTP/1.1" 200 5111
+[17/Jan/2021 17:47:47] "GET /year HTTP/1.1" 200 12813
+[17/Jan/2021 17:47:49] "GET /year HTTP/1.1" 200 12813
+[17/Jan/2021 17:47:49] "GET /video1 HTTP/1.1" 200 5111
+[17/Jan/2021 17:47:50] "GET /year HTTP/1.1" 200 12813
+[17/Jan/2021 17:47:50] "GET /video1 HTTP/1.1" 200 5111
+[17/Jan/2021 17:47:53] "GET /video2 HTTP/1.1" 200 5111
+[17/Jan/2021 17:47:54] "GET /video1 HTTP/1.1" 200 5111
+[17/Jan/2021 17:47:56] "GET /video2 HTTP/1.1" 200 5111
+[17/Jan/2021 17:47:59] "GET /video1 HTTP/1.1" 200 5111
+[17/Jan/2021 17:48:00] "GET /year HTTP/1.1" 200 12813
+[17/Jan/2021 17:48:02] "GET /year HTTP/1.1" 200 12813
+[17/Jan/2021 17:48:04] "GET /year HTTP/1.1" 200 12813
+[17/Jan/2021 17:48:05] "GET /year HTTP/1.1" 200 12813
+[17/Jan/2021 17:48:07] "GET /year HTTP/1.1" 200 12813
+[17/Jan/2021 17:48:08] "GET /year HTTP/1.1" 200 12813
+[17/Jan/2021 17:48:08] "GET /year HTTP/1.1" 200 12813
+/root/portfolio/portfolio/urls.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 17, 2021 - 17:47:28
+Django version 3.1.5, using settings 'portfolio.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+/root/portfolio/members/urls.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 17, 2021 - 17:50:18
+Django version 3.1.5, using settings 'portfolio.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/django/utils/autoreload.py", line 53, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/management/commands/runserver.py", line 118, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/management/base.py", line 396, in check
+    databases=databases,
+  File "/usr/local/lib/python3.6/dist-packages/django/core/checks/registry.py", line 70, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/checks/urls.py", line 13, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/checks/urls.py", line 23, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python3.6/dist-packages/django/urls/resolvers.py", line 408, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python3.6/dist-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.6/dist-packages/django/urls/resolvers.py", line 589, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python3.6/dist-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.6/dist-packages/django/urls/resolvers.py", line 582, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/root/portfolio/portfolio/urls.py", line 21, in <module>
+    path('', include('members.urls')),
+  File "/usr/local/lib/python3.6/dist-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/root/portfolio/members/urls.py", line 9, in <module>
+    path('main',views.main, name="main")
+AttributeError: module 'members.views' has no attribute 'main'
+
+/root/portfolio/members/views.py changed, reloading.
+Performing system checks...
+
+Watching for file changes with StatReloader
+[17/Jan/2021 17:51:35] "GET /year HTTP/1.1" 200 12813
+[17/Jan/2021 17:51:36] "GET /year HTTP/1.1" 200 12813
+[17/Jan/2021 17:51:37] "GET /year HTTP/1.1" 200 12813
+[17/Jan/2021 17:51:39] "GET /year HTTP/1.1" 200 12813
+[17/Jan/2021 17:51:39] "GET /year HTTP/1.1" 200 12813
+[17/Jan/2021 17:51:40] "GET /year HTTP/1.1" 200 12813
+[17/Jan/2021 17:51:41] "GET /year HTTP/1.1" 200 12813
+[17/Jan/2021 17:53:15] "GET /main HTTP/1.1" 200 8352
+[17/Jan/2021 17:53:15] "GET /static/main.jpg HTTP/1.1" 304 0
+[17/Jan/2021 17:53:15] "GET /static/1931~1959.jpg HTTP/1.1" 304 0
+[17/Jan/2021 17:53:15] "GET /static/1961~1967.jpg HTTP/1.1" 304 0
+[17/Jan/2021 17:53:15] "GET /static/1972~1979.jpg HTTP/1.1" 304 0
+[17/Jan/2021 17:53:15] "GET /static/1990~1999.jpg HTTP/1.1" 304 0
+[17/Jan/2021 17:53:15] "GET /static/1980~1989.jpg HTTP/1.1" 304 0
+[17/Jan/2021 17:53:15] "GET /static/2000~2009.jpg HTTP/1.1" 304 0
+[17/Jan/2021 17:53:15] "GET /static/2010~.jpg HTTP/1.1" 304 0
+[17/Jan/2021 17:53:17] "GET /main HTTP/1.1" 200 8352
+[17/Jan/2021 17:53:20] "GET /video1 HTTP/1.1" 200 5115
+[17/Jan/2021 17:53:22] "GET /main HTTP/1.1" 200 8352
+[17/Jan/2021 17:53:22] "GET /year HTTP/1.1" 200 12817
+[17/Jan/2021 17:53:23] "GET /main HTTP/1.1" 200 8352
+[17/Jan/2021 17:53:24] "GET /video1 HTTP/1.1" 200 5115
+[17/Jan/2021 17:53:26] "GET /main HTTP/1.1" 200 8352
+[17/Jan/2021 17:53:36] "GET /video1 HTTP/1.1" 200 5115
+[17/Jan/2021 17:53:38] "GET /video2 HTTP/1.1" 200 5115
+[17/Jan/2021 17:53:40] "GET /year HTTP/1.1" 200 12817
+[17/Jan/2021 17:53:45] "GET /video1 HTTP/1.1" 200 5115
+[17/Jan/2021 17:53:48] "GET /main HTTP/1.1" 200 8352
+[17/Jan/2021 17:53:50] "GET /main HTTP/1.1" 200 8352
+[17/Jan/2021 17:54:10] "GET /main HTTP/1.1" 200 8352
+[17/Jan/2021 17:54:11] "GET /main HTTP/1.1" 200 8352
+[17/Jan/2021 17:54:12] "GET /video1 HTTP/1.1" 200 5115
+[17/Jan/2021 17:54:12] "GET /year HTTP/1.1" 200 12817
+[17/Jan/2021 17:54:16] "GET /main HTTP/1.1" 200 8352
+[17/Jan/2021 17:54:21] "GET /main HTTP/1.1" 200 8352
+[17/Jan/2021 17:54:21] "GET /main HTTP/1.1" 200 8352
+[17/Jan/2021 17:54:22] "GET /main HTTP/1.1" 200 8352
+[17/Jan/2021 17:54:23] "GET /main HTTP/1.1" 200 8352
+[17/Jan/2021 17:54:23] "GET /main HTTP/1.1" 200 8352
+[17/Jan/2021 17:54:24] "GET /main HTTP/1.1" 200 8352
+[17/Jan/2021 17:54:24] "GET /main HTTP/1.1" 200 8352
+[17/Jan/2021 17:54:41] "GET /video1 HTTP/1.1" 200 5115
+[17/Jan/2021 17:54:43] "GET /video2 HTTP/1.1" 200 5115
+[17/Jan/2021 17:54:45] "GET /main HTTP/1.1" 200 8352
+[17/Jan/2021 17:54:47] "GET /video1 HTTP/1.1" 200 5115
+[17/Jan/2021 17:54:48] "GET /year HTTP/1.1" 200 12817
+[17/Jan/2021 17:54:50] "GET /year HTTP/1.1" 200 12817
+[17/Jan/2021 17:54:50] "GET /video1 HTTP/1.1" 200 5115
+[17/Jan/2021 17:54:54] "GET /main HTTP/1.1" 200 8352
+[17/Jan/2021 17:54:55] "GET /main HTTP/1.1" 200 8352
+[17/Jan/2021 17:55:02] "GET /video1 HTTP/1.1" 200 5115
+[17/Jan/2021 17:55:03] "GET /year HTTP/1.1" 200 12817
+[17/Jan/2021 17:55:05] "GET /main HTTP/1.1" 200 8352
+[17/Jan/2021 17:55:19] "GET /video1 HTTP/1.1" 200 5115
+[17/Jan/2021 17:55:23] "GET /video2 HTTP/1.1" 200 5115
+[17/Jan/2021 17:55:26] "GET /year HTTP/1.1" 200 12817
+[17/Jan/2021 17:55:29] "GET /year HTTP/1.1" 200 12817
+[17/Jan/2021 17:55:30] "GET /video1 HTTP/1.1" 200 5115
+[17/Jan/2021 17:55:31] "GET /main HTTP/1.1" 200 8352
+[17/Jan/2021 17:55:33] "GET /video1 HTTP/1.1" 200 5115
+[17/Jan/2021 17:55:34] "GET /year HTTP/1.1" 200 12817
+[17/Jan/2021 17:55:35] "GET /main HTTP/1.1" 200 8352
+[17/Jan/2021 17:56:19] "GET /main HTTP/1.1" 200 8352
+[17/Jan/2021 17:56:19] "GET /static/main.jpg HTTP/1.1" 200 337605
+[17/Jan/2021 17:56:19] "GET /static/1961~1967.jpg HTTP/1.1" 200 140521
+[17/Jan/2021 17:56:19] "GET /static/1990~1999.jpg HTTP/1.1" 200 99728
+[17/Jan/2021 17:56:19] "GET /static/1980~1989.jpg HTTP/1.1" 200 122427
+[17/Jan/2021 17:56:19] "GET /static/1931~1959.jpg HTTP/1.1" 200 135670
+[17/Jan/2021 17:56:19] "GET /static/1972~1979.jpg HTTP/1.1" 200 195818
+[17/Jan/2021 17:56:19] "GET /static/2000~2009.jpg HTTP/1.1" 200 135919
+[17/Jan/2021 17:56:19] "GET /static/2010~.jpg HTTP/1.1" 200 293579
+Not Found: /icon.png
+[17/Jan/2021 17:56:19] "GET /icon.png HTTP/1.1" 404 3216
+[17/Jan/2021 17:56:41] "GET /main HTTP/1.1" 200 8352
+[17/Jan/2021 17:56:41] "GET /static/1931~1959.jpg HTTP/1.1" 200 135670
+[17/Jan/2021 17:56:41] "GET /static/1961~1967.jpg HTTP/1.1" 200 140521
+[17/Jan/2021 17:56:41] "GET /static/1980~1989.jpg HTTP/1.1" 200 122427
+[17/Jan/2021 17:56:41] "GET /static/1990~1999.jpg HTTP/1.1" 200 99728
+[17/Jan/2021 17:56:41] "GET /static/1972~1979.jpg HTTP/1.1" 200 195818
+[17/Jan/2021 17:56:41] "GET /static/main.jpg HTTP/1.1" 200 337605
+[17/Jan/2021 17:56:41] "GET /static/2000~2009.jpg HTTP/1.1" 200 135919
+[17/Jan/2021 17:56:41] "GET /static/2010~.jpg HTTP/1.1" 200 293579
+Not Found: /icon.png
+[17/Jan/2021 17:56:42] "GET /icon.png HTTP/1.1" 404 3216
+[17/Jan/2021 17:56:44] "GET /video1 HTTP/1.1" 200 5115
+[17/Jan/2021 17:56:50] "GET /main HTTP/1.1" 200 8352
+[17/Jan/2021 17:56:54] "GET /main HTTP/1.1" 200 8352
+[17/Jan/2021 17:56:54] "GET /static/1931~1959.jpg HTTP/1.1" 200 135670
+[17/Jan/2021 17:56:54] "GET /static/1980~1989.jpg HTTP/1.1" 200 122427
+[17/Jan/2021 17:56:54] "GET /static/1990~1999.jpg HTTP/1.1" 200 99728
+[17/Jan/2021 17:56:54] "GET /static/1972~1979.jpg HTTP/1.1" 200 195818
+[17/Jan/2021 17:56:54] "GET /static/1961~1967.jpg HTTP/1.1" 200 140521
+[17/Jan/2021 17:56:54] "GET /static/main.jpg HTTP/1.1" 200 337605
+[17/Jan/2021 17:56:54] "GET /static/2000~2009.jpg HTTP/1.1" 200 135919
+[17/Jan/2021 17:56:54] "GET /static/2010~.jpg HTTP/1.1" 200 293579
+Not Found: /icon.png
+[17/Jan/2021 17:56:55] "GET /icon.png HTTP/1.1" 404 3216
+[17/Jan/2021 17:56:56] "GET /main HTTP/1.1" 200 8352
+[17/Jan/2021 17:56:56] "GET /static/1990~1999.jpg HTTP/1.1" 200 99728
+[17/Jan/2021 17:56:56] "GET /static/1961~1967.jpg HTTP/1.1" 200 140521
+[17/Jan/2021 17:56:56] "GET /static/1931~1959.jpg HTTP/1.1" 200 135670
+[17/Jan/2021 17:56:56] "GET /static/main.jpg HTTP/1.1" 200 337605
+[17/Jan/2021 17:56:56] "GET /static/1972~1979.jpg HTTP/1.1" 200 195818
+[17/Jan/2021 17:56:56] "GET /static/1980~1989.jpg HTTP/1.1" 200 122427
+[17/Jan/2021 17:56:56] "GET /static/2000~2009.jpg HTTP/1.1" 200 135919
+[17/Jan/2021 17:56:56] "GET /static/2010~.jpg HTTP/1.1" 200 293579
+[17/Jan/2021 17:57:00] "GET /main HTTP/1.1" 200 8352
+[17/Jan/2021 17:57:01] "GET /static/1931~1959.jpg HTTP/1.1" 200 135670
+[17/Jan/2021 17:57:01] "GET /static/1990~1999.jpg HTTP/1.1" 200 99728
+[17/Jan/2021 17:57:01] "GET /static/1972~1979.jpg HTTP/1.1" 200 195818
+[17/Jan/2021 17:57:01] "GET /static/1980~1989.jpg HTTP/1.1" 200 122427
+[17/Jan/2021 17:57:01] "GET /static/1961~1967.jpg HTTP/1.1" 200 140521
+[17/Jan/2021 17:57:01] "GET /static/main.jpg HTTP/1.1" 200 337605
+[17/Jan/2021 17:57:01] "GET /static/2000~2009.jpg HTTP/1.1" 200 135919
+[17/Jan/2021 17:57:01] "GET /static/2010~.jpg HTTP/1.1" 200 293579
+Not Found: /icon.png
+[17/Jan/2021 17:57:01] "GET /icon.png HTTP/1.1" 404 3216
+[17/Jan/2021 17:57:05] "GET /year HTTP/1.1" 200 12817
+[17/Jan/2021 17:57:06] "GET /video1 HTTP/1.1" 200 5115
+[17/Jan/2021 17:57:10] "GET /year HTTP/1.1" 200 12817
+[17/Jan/2021 17:57:35] "GET /year HTTP/1.1" 200 12817
+[17/Jan/2021 17:57:37] "GET /video1 HTTP/1.1" 200 5115
+[17/Jan/2021 18:33:01] "GET /main HTTP/1.1" 200 8352
+[17/Jan/2021 18:33:01] "GET /static/1931~1959.jpg HTTP/1.1" 304 0
+[17/Jan/2021 18:33:01] "GET /static/main.jpg HTTP/1.1" 304 0
+[17/Jan/2021 18:33:01] "GET /static/1972~1979.jpg HTTP/1.1" 304 0
+[17/Jan/2021 18:33:01] "GET /static/1961~1967.jpg HTTP/1.1" 304 0
+[17/Jan/2021 18:33:01] "GET /static/1990~1999.jpg HTTP/1.1" 304 0
+[17/Jan/2021 18:33:01] "GET /static/1980~1989.jpg HTTP/1.1" 304 0
+[17/Jan/2021 18:33:01] "GET /static/2000~2009.jpg HTTP/1.1" 304 0
+[17/Jan/2021 18:33:01] "GET /static/2010~.jpg HTTP/1.1" 304 0
+[17/Jan/2021 18:33:46] "GET /main HTTP/1.1" 200 8352
+[17/Jan/2021 18:33:46] "GET /main HTTP/1.1" 200 8352
+[17/Jan/2021 18:33:50] "GET /year HTTP/1.1" 200 12883
+[17/Jan/2021 18:34:01] "GET /year HTTP/1.1" 200 12883
+[17/Jan/2021 18:34:01] "GET /video1 HTTP/1.1" 200 5115
+[17/Jan/2021 18:34:05] "GET /main HTTP/1.1" 200 8352
+[17/Jan/2021 18:34:32] "GET /main HTTP/1.1" 200 8352
+[17/Jan/2021 18:34:53] "GET /main HTTP/1.1" 200 8352
+[17/Jan/2021 18:35:23] "GET /main HTTP/1.1" 200 8352
+[17/Jan/2021 18:35:23] "GET /static/1931~1959.jpg HTTP/1.1" 304 0
+[17/Jan/2021 18:35:23] "GET /static/1961~1967.jpg HTTP/1.1" 304 0
+[17/Jan/2021 18:35:23] "GET /static/1972~1979.jpg HTTP/1.1" 304 0
+[17/Jan/2021 18:35:23] "GET /static/1980~1989.jpg HTTP/1.1" 304 0
+[17/Jan/2021 18:35:23] "GET /static/main.jpg HTTP/1.1" 304 0
+[17/Jan/2021 18:35:23] "GET /static/1990~1999.jpg HTTP/1.1" 304 0
+[17/Jan/2021 18:35:24] "GET /static/2000~2009.jpg HTTP/1.1" 304 0
+[17/Jan/2021 18:35:24] "GET /static/2010~.jpg HTTP/1.1" 304 0
+[17/Jan/2021 18:35:43] "GET /year HTTP/1.1" 200 12883
+[17/Jan/2021 18:39:30] "GET / HTTP/1.1" 200 8352
+[17/Jan/2021 18:39:35] "GET /main HTTP/1.1" 200 8352
+[17/Jan/2021 18:39:38] "GET /year HTTP/1.1" 200 12898
+[17/Jan/2021 18:39:51] "GET /main HTTP/1.1" 200 8352
+[17/Jan/2021 18:40:14] "GET /main HTTP/1.1" 200 8352
+[17/Jan/2021 18:40:19] "GET /year HTTP/1.1" 200 12898
+[17/Jan/2021 18:40:30] "GET /year HTTP/1.1" 200 12898
+[17/Jan/2021 18:40:39] "GET /video1 HTTP/1.1" 200 5115
+[17/Jan/2021 18:40:44] "GET /year HTTP/1.1" 200 12898
+[17/Jan/2021 18:40:46] "GET /video1 HTTP/1.1" 200 5115
+[17/Jan/2021 18:41:22] "GET /main HTTP/1.1" 200 8352
+[17/Jan/2021 18:41:28] "GET /main HTTP/1.1" 200 8352
+[17/Jan/2021 18:41:42] "GET /video1 HTTP/1.1" 200 5115
+[17/Jan/2021 18:41:46] "GET /video2 HTTP/1.1" 200 5115
+[17/Jan/2021 18:41:48] "GET /year HTTP/1.1" 200 12898
+[17/Jan/2021 18:42:04] "GET /main HTTP/1.1" 200 8352
+[17/Jan/2021 18:42:04] "GET /static/1931~1959.jpg HTTP/1.1" 304 0
+[17/Jan/2021 18:42:04] "GET /static/main.jpg HTTP/1.1" 304 0
+[17/Jan/2021 18:42:04] "GET /static/1961~1967.jpg HTTP/1.1" 304 0
+[17/Jan/2021 18:42:04] "GET /static/1972~1979.jpg HTTP/1.1" 304 0
+[17/Jan/2021 18:42:04] "GET /static/1990~1999.jpg HTTP/1.1" 304 0
+[17/Jan/2021 18:42:04] "GET /static/1980~1989.jpg HTTP/1.1" 304 0
+[17/Jan/2021 18:42:04] "GET /static/2000~2009.jpg HTTP/1.1" 304 0
+[17/Jan/2021 18:42:04] "GET /static/2010~.jpg HTTP/1.1" 304 0
+[17/Jan/2021 18:42:10] "GET /video1 HTTP/1.1" 200 5115
+[17/Jan/2021 18:42:13] "GET /year HTTP/1.1" 200 12898
+[17/Jan/2021 18:42:18] "GET /year HTTP/1.1" 200 12898
+[17/Jan/2021 18:42:19] "GET /video1 HTTP/1.1" 200 5115
+[17/Jan/2021 18:42:22] "GET /main HTTP/1.1" 200 8352
+[17/Jan/2021 19:29:39] "GET / HTTP/1.1" 200 8352
+[17/Jan/2021 19:29:39] "GET /static/1931~1959.jpg HTTP/1.1" 304 0
+[17/Jan/2021 19:29:39] "GET /static/main.jpg HTTP/1.1" 304 0
+[17/Jan/2021 19:29:39] "GET /static/1961~1967.jpg HTTP/1.1" 304 0
+[17/Jan/2021 19:29:39] "GET /static/1972~1979.jpg HTTP/1.1" 304 0
+[17/Jan/2021 19:29:39] "GET /static/1980~1989.jpg HTTP/1.1" 304 0
+[17/Jan/2021 19:29:39] "GET /static/1990~1999.jpg HTTP/1.1" 304 0
+[17/Jan/2021 19:29:39] "GET /static/2000~2009.jpg HTTP/1.1" 304 0
+[17/Jan/2021 19:29:39] "GET /static/2010~.jpg HTTP/1.1" 304 0
+[17/Jan/2021 19:29:45] "GET /main HTTP/1.1" 200 8352
+[17/Jan/2021 19:31:54] "GET /main HTTP/1.1" 200 8352
+[17/Jan/2021 19:32:59] "GET /main HTTP/1.1" 200 8352
+[17/Jan/2021 19:33:07] "GET /video1 HTTP/1.1" 200 5115
+[17/Jan/2021 19:33:10] "GET /year HTTP/1.1" 200 12898
+[17/Jan/2021 19:34:45] "GET /main HTTP/1.1" 200 8352
+[17/Jan/2021 19:36:10] "GET /main HTTP/1.1" 200 8352
+[17/Jan/2021 19:36:17] "GET /video1 HTTP/1.1" 200 5115
+[17/Jan/2021 19:36:19] "GET /year HTTP/1.1" 200 12898
+[17/Jan/2021 19:36:34] "GET /main HTTP/1.1" 200 8352
+[17/Jan/2021 19:37:40] "GET / HTTP/1.1" 200 8352
+[17/Jan/2021 19:37:47] "GET /main HTTP/1.1" 200 8352
+[17/Jan/2021 19:40:21] "GET /video1 HTTP/1.1" 200 5115
+[17/Jan/2021 19:40:59] "GET /year HTTP/1.1" 200 12898
+[17/Jan/2021 19:42:11] "GET /main HTTP/1.1" 200 8352
+[17/Jan/2021 19:42:41] "GET /year HTTP/1.1" 200 12898
+[17/Jan/2021 19:42:42] "GET /video1 HTTP/1.1" 200 5115

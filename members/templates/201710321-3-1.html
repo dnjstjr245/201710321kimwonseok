@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="kr" class="backgr">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+
+    <link rel="shortcut icon" type="image/x-icon" href="icon.png" />
+
+    <title>201710321_김원석_포트폴리오3</title>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-dark"
+      style="background-color: #0a5e3c"
+    >
+      <a class="navbar-brand" href="main" target="_self"
+        ><img
+          src="http://www.konkuk.ac.kr/Administration/70thAnniversary/images/main/img_logo_70year.png"
+          width="30"
+          height="30"
+          class="d-inline-block align-top"
+          alt=""
+          loading="lazy"
+        />
+        <strong>KU</strong> HISTORY</a
+      >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a
+              class="nav-link"
+              href="https://www.konkuk.ac.kr/do/Index.do"
+              target="_blank"
+              >홈페이지 <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="video1" target="_self">동영상</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="year" target="_self">연혁</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              참고문헌
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a
+                class="dropdown-item"
+                href="http://www.konkuk.ac.kr/Administration/70thAnniversary/jsp/business_year.jsp"
+                >건국대학교 70년사</a
+              >
+              <a
+                class="dropdown-item"
+                href="https://www.konkuk.ac.kr/jsp/Intro/intro_03_02_tab06.jsp"
+                >건국대학교의 역사와 교육이념</a
+              >
+            </div>
+          </li>
+        </ul>
+        <form
+          class="form-inline my-2 my-lg-0"
+          action="https://www.konkuk.ac.kr/jsp/Search/search.jsp"
+          method="post"
+          role="search"
+        >
+          <input
+            name="query"
+            type="text"
+            maxlength="255"
+            class="input_text form-control mr-sm-2"
+            autocomplete="off"
+            placeholder="KU SEARCH"
+          />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            검색
+          </button>
+        </form>
+      </div>
+    </nav>
+    <div class="video-container">
+      <iframe
+        width="100%"
+        height="auto"
+        src="https://www.youtube.com/embed/Vz6BSpIvK1I"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <style>
+      .video-container {
+        position: relative;
+        padding-bottom: 56.25%;
+        padding-top: 30px;
+        height: 0;
+        overflow: hidden;
+      }
+      .video-container iframe,
+      .video-container object,
+      .video-container embed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+    <div
+      class="btn-group mr-2"
+      role="group"
+      aria-label="First group"
+      style="width: 100%; position: absolute"
+    >
+      <button type="button" class="btn btn-success">
+        <a href="video1" target="_self" style="color: white">KU HISTORY #1</a>
+      </button>
+      <button type="button" class="btn btn-success">
+        <a href="video2" target="_self" style="color: white">KU HISTORY #2</a>
+      </button>
+    </div>
+  </body>
+</html>
